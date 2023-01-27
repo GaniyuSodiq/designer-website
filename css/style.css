@@ -74,8 +74,30 @@ hr {
 table{
     text-align: left;
 }
-img {
+.skill-img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    
 }
+
+.chillies {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.chillies .skill-img{
+    width: 30%;
+    float: right;
+}
+
+.chillies-text{
+    padding-right: 20px;
+    width: 65%;
+    float: left;
+    text-align: left;
+}
+
+hr {
+    clear: both;
+  }
