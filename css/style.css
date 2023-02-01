@@ -54,8 +54,8 @@ hr {
     
     border-style: dotted none none none;
     border-width: 7px;
-    width: 10%;
-    color: #2f4141;
+    width: 4%;
+    color: #eaf6f6;
     margin: 100px auto;
 }
 
@@ -114,14 +114,10 @@ table{
     margin-bottom: 45px;
   }
 
-  .footer{
-    background-color: #66bfbf;
 
-  }
 
-  .get-in-touch-btn{
+  /* .get-in-touch-btn{
     border: solid;
-    
     border-radius: 5px;
     padding: 7px 15px;
     border-width: 1px;
@@ -130,4 +126,54 @@ table{
     text-transform: uppercase;
     background-color: #66bfbf;
     color: white;
+  } */
+
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+  .footer{
+    background-color: #66bfbf;
+    margin-top: 100px;
+    padding: 40px 0;
+    
+  }
+
+  .footer a{
+    color: #11999e;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1rem;
+  }
+
+  .footer p{
+    color: white;
+    margin-top: 30px;
+    
+    font-size: 0.8rem;
   }
