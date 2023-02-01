@@ -1,6 +1,7 @@
 body{
     margin: 0;
     text-align: center;
+    
 }
 .top-container{
     background-color: #eaf6f6;
@@ -39,6 +40,7 @@ h2 {
 }
 p {
     font-family: 'Comfortaa', cursive;
+    
     width: 40%;
     margin: 0 auto;
 }
@@ -82,8 +84,10 @@ table{
 }
 
 .chillies {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
+    
+
 }
 
 .chillies .skill-img{
@@ -96,8 +100,34 @@ table{
     width: 65%;
     float: left;
     text-align: left;
+    margin-top: 30px;
 }
 
-hr {
-    clear: both;
+
+
+  .float-clear {
+    float: none;
+    visibility: hidden;
+  }
+
+  .get-in-touch{
+    margin-bottom: 45px;
+  }
+
+  .footer{
+    background-color: #66bfbf;
+
+  }
+
+  .get-in-touch-btn{
+    border: solid;
+    
+    border-radius: 5px;
+    padding: 7px 15px;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #66bfbf;
+    color: white;
   }
